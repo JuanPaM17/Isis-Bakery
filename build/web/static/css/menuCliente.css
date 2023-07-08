@@ -1,0 +1,432 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23/11/2022, 08:53:11 AM
+    Author     : Santiago Torres
+*/
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-featured-baking-bread-image_171975.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    height: 15.0vw;
+    align-items: center;
+    background-color: rgba(255, 248, 238, 1);
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.logo{
+    width: 30%;
+    border-top-left-radius: 37%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border: 2px solid black;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size:1.0vw;
+}
+
+nav{
+    padding-right: 20px;
+    font-size:4.0vw;
+}
+nav:hover{
+    color: #d03b40;
+}
+
+#formulario{
+    margin-top: 5%;
+    background-color: rgba(255, 248, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10%;
+    padding: 80px;
+}
+
+#formularioF{
+    margin-top: 5%;
+    background-color: rgba(255, 248, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10%;
+    padding: 80px;
+}
+
+.formulario1{
+    width: 100%;
+    margin-top: 5%;
+    padding: 20px;
+    font-size:3.0vw;
+
+}
+
+.div-agregar{
+    text-align: center;
+}
+
+.cantidad{
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    padding-right: 10%;
+
+}
+
+.btn-carro{
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: #28a745;
+}
+.btn-carro:hover{
+    border: 2px solid orange;
+    color: black;
+}
+
+#reservar{
+    font-weight: bold;
+    font-size:4.0vw;
+}
+form input{
+    width: 80%;
+    height: 10%;
+    overflow-x: hidden;
+    padding: 10px;
+}
+#seleccion{
+    font-size:4.0vw;
+    font-weight: 800;
+    width: 300px;
+    text-align: center;
+    color: white;
+    background-color: #28a745;
+    font-family: cursive;
+    font-size: medium;
+    border: 3px solid #ca783b;
+}
+#seleccion:hover{
+    border: 3px solid orange;
+    color: black;
+    scale: 1.1;
+}
+ul{
+    margin: auto;
+    font-size:3.0vw;
+}
+ul li{
+    width: 90%;
+    margin: 2%;
+    padding:2%;
+    background-color: rgba(255, 248, 238, 1);
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: #d03b40;
+}
+.catalogo{
+    margin: 3%;
+    margin-left: 5%;
+    display: grid;
+    margin-bottom: 10%;
+}
+.foto{
+    padding-right: 5%;
+    border-radius: 10%;
+}
+
+.foto img{
+    text-align: center;
+}
+.nombre{
+    margin: auto;
+    padding: 2%;
+    padding-right: 5%;
+}
+.precio{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    padding-right: 10%;
+}
+
+#descripcion{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    padding-right: 10%;
+}
+#carrito{
+    margin-bottom: 7px;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: auto;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    background-color: #d03b40;
+    font-family: cursive;
+    border: 2px solid black;
+}
+
+.carri:hover{
+    border: 2px solid white;
+    color: black;
+    scale: 1.1;
+}
+.encabezado{
+    margin-block:inherit;
+    padding: 2%;
+    margin-inline-end: auto;
+    font-size: 3.0vw;
+}
+#fechageneracion{
+    margin-block:inherit;
+    padding: 2%;
+    margin-inline-end: auto;
+    font-size: 3.0vw;
+}
+#historial{
+    margin-top: 2%;
+    background-color: rgba(255, 248, 238, 1);
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10%;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#botones{
+    font-size: 5.0vw;
+    justify-content: space-evenly;
+    min-width: inherit;
+    flex-wrap: wrap;
+}
+.total{
+    margin-bottom: 5%;
+    font-size: 2.0vw;
+}
+#irhistorial{
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    font-size:16px;
+    background-color: red;
+    font-family:sans-serif;
+}
+#enviar{
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    font-size:16px;
+    background-color: red;
+    font-family:sans-serif;
+}
+
+#irhistorial :hover{
+    color: white;
+}
+
+#enviar :hover{
+    color: white;
+}
+.btn-danger{
+    text-align: center;
+    color: white;
+    background-color: #28a745;
+    font-family: cursive;
+    font-size: medium;
+    border: 2px solid black;
+}
+.btn-danger:hover{
+    border: 3px solid white;
+    color: black;
+    scale: 1.1;
+}
+.btn-secondary{
+    text-align: center;
+    color: white;
+    background-color: #d03b40;
+    font-family: cursive;
+    font-size: medium;
+    border: 2px solid black;
+}
+.btn-secondary:hover{
+    border: 3px solid orange;
+    color: black;
+    scale: 1.1;
+}
+@media screen and (min-width: 600px){
+    #formulario{
+        margin-top: 5%;
+        margin-left:2%;
+        padding: 2%;
+        float: right;
+        width: 65%;
+
+    }
+    #formularioF{
+        margin-top: 5%;
+        margin-left:2%;
+        padding: 2%;
+        width: 95%;
+    }
+    #reservar{
+        text-align: -webkit-center;
+    }
+
+    ul{
+        position: absolute;
+        float: left;
+        margin-top: 10%;
+        margin-left:2%;
+        margin-bottom: 20%;
+        font-size:4.0vw;
+    }
+    ul li{
+        width: 100%;
+        margin-bottom: 20%;
+        padding:2%;
+    }
+    #r{
+        margin: 2%;
+        margin-left: 3%;
+        display: grid;
+        float: left;
+        width: 45%;
+        margin-bottom: 2%;
+
+    }
+    #i{
+        margin: 2%;
+        margin-left: 3%;
+        display: grid;
+        float: right;
+        width: 45%;
+        margin-bottom: 2%;
+
+    }
+    .foto{
+        width: 100%;
+    }
+    .nombre{
+        text-align: center;
+        margin: auto;
+        font-size: 2vw;
+
+    }
+    .precio{
+        margin: auto;
+        padding: 20px;
+    }
+    .cantidad{
+        margin: auto;
+        padding: 10px;
+
+    }
+    #descripcion{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+    #carrito{
+        margin-top: 1%;
+        width: 30%;
+        font-size:20px;
+
+    }
+    #historial{
+        margin-top: 5%;
+        background-color: rgba(255, 248, 238, 1);
+        display: flex;
+        position: absolute;
+        width: 95%;
+        margin-bottom: 20%;
+        margin-right: 2%;
+        border-radius: 10%;
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    #botones{
+        float: left;
+        font-size: 3.0vw;
+        justify-content: space-evenly;
+        min-width: inherit;
+        flex-wrap: wrap;
+    }
+    #irhistorial{
+        margin-top: 40%;
+        float: left;
+        width: 35%;
+    }
+
+}
+@media screen and (min-width: 820px){
+    #r{
+        margin: 2%;
+        margin-left: 3%;
+        display: grid;
+        float: left;
+        width: 20%;
+        margin-bottom: 2%;
+
+    }
+    #i{
+        margin: 2%;
+        margin-left: 3%;
+        display: grid;
+        float: left;
+        width: 20%;
+        margin-bottom: 2%;
+
+    }
+    .foto{
+        width: 100%;
+    }
+}
+
+.contenedorUnoImpor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cerrar{
+    margin-left: 50px;
+    margin-right: 50px;
+    float: right;
+}

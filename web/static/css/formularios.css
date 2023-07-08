@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7/10/2022, 6:08:35 a. m.
+    Author     : sarit
+*/
+button:active {
+    -webkit-box-shadow: 2px 5px 2px #f4eeee;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.card-body{
+    background-color: #f6f5f7;
+}
+
+.container-img img{
+    margin-left: 50px;
+}
+
+input {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 2px solid  #d03b40;
+}
+
+.form-reg input:valid{
+    background-color: #dbeddc;
+    border: 2px solid black;
+}
+
+.nva-pag:hover{
+    color: black;
+    background-color: #ccffcc;
+}
+
+.nva-pag{
+    text-decoration: none;
+    -webkit-box-shadow: 2px 5px 2px #f4eeee;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: black;
+}
+
+.select{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 2px solid  #d03b40;
+}
+
+.select:valid{
+    background-color: #dbeddc;
+    border: 2px solid black;
+}
+
+.atras:hover{
+    color: black;
+    background-color: tomato;
+}

@@ -1,0 +1,148 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11/10/2022, 6:16:27 a. m.
+    Author     : sarit
+*/
+
+.card-body{
+    background-color: #f6f5f7;
+    overflow: auto;
+}
+
+/*Configaracion de la tabla*/
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000000;
+
+}
+
+/*Configuracion del encabezado*/
+.content-table thead tr{
+    background-color: #F2eee3;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #04414d;
+}
+
+/*Configuracion del espacio de las filas*/
+.content-table th, .content-table td{
+    padding: 15px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody td{
+    border-bottom: 1px solid #04414d;
+}
+
+/*Para las imagenes*/
+.content-table tbody td img{
+    border: 1px solid #000000;
+}
+
+/*Para alternar el color en las filas pares*/
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr td img:hover{
+    transform : scale(1.1);
+}
+
+.content-table tbody tr td img{
+    transition:transform 1s;
+}
+
+/*Diseño al ultimo dato de la fila*/
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #F2eee3
+}
+
+/*Para alternar el color en las filas pares*/
+.content-table tbody tr:nth-child(even){
+    background-color: #ddd;
+}
+
+/*Cuando se pasa el mouse por encima */
+.content-table tbody tr:hover{
+    background-color: #F2eee3;
+}
+
+
+/*Boton*/
+.nva-pag{
+    text-decoration: none;
+    -webkit-box-shadow: 2px 5px 2px #f4eeee;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background-color: #F2eee3;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    border-color: black;
+}
+
+/*Accion al pasar el mouse*/
+.nva-pag:hover{
+    color: black;
+    background-color: #ccffcc;
+}
+
+
+/*Caja de buscar*/
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchPalabra {
+    width: 100%;
+    border: 3px solid rgba;
+    border-right: none;
+    padding: 16px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+}
+
+.searchPalabra:focus{
+    color: #000000;
+}
+
+.searchButton {
+    width: 130px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.search-box{
+    width: 50%;
+}
+
+
+
+
